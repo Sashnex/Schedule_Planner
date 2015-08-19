@@ -6,7 +6,7 @@
 .main_header {
 	background: url(img/header-bg.png);
 	height: 50px;
-	width: 100%;
+	max-width: 1920px;
 	margin: 0 auto;
 }
 
@@ -58,7 +58,7 @@
 	color: #9d5d48;
 	position: relative;
 	height: 150px;
-	width: 800px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 	
@@ -114,7 +114,6 @@ h1 {
 .iphone:hover {
 	background-image: url(img/sprite-devices.png);
 	background-position: 0 -85px;
-	transition: .3s;
 }
 
 .ipad {
@@ -128,7 +127,6 @@ h1 {
 .ipad:hover {
 	background-image: url(img/sprite-devices.png);
 	background-position: -46px -82px;
-	transition: .3s;
 }
 
 .android {
@@ -142,7 +140,6 @@ h1 {
 .android:hover {
 	background-image: url(img/sprite-devices.png);
 	background-position: -92px -82px;
-	transition: .3s;
 }
 
 .kindle {
@@ -156,7 +153,6 @@ h1 {
 .kindle:hover {
 	background-image: url(img/sprite-devices.png);
 	background-position: -149px -82px;
-	transition: .3s;
 }
 
 .carousel {
@@ -168,7 +164,7 @@ h1 {
 /* ____________________ DEVICE-CHOIСE ___________ */
 
 .container {
-	width: 100%;
+	max-width: 1920px;
 }
 
 .features {
@@ -181,7 +177,7 @@ h1 {
 .features_list {
 	display: block;
 	margin: 0 auto;
-	width: 1260px;
+	max-width: 1260px;
 	text-align: center;
 }
 
@@ -223,7 +219,7 @@ h1 {
 /* _____________ FEATURES ____________ */
 
 .options {
-	width: 100%;
+	max-width: 1920px;;
 	height: 225px;
 	background: url(img/options-bg.png);
 	color: #fff;
@@ -272,7 +268,7 @@ h1 {
 /* ___________________OPTIONS ___________________*/
 
 .feedback {
-	width: 100%;
+	max-width: 1920px;;
 	height: 230px;
 	background-color: #f8f7f3;
 	background-image: url(img/footer-wave.png);
@@ -356,7 +352,7 @@ h1 {
 /* _________________ FEEDBACK ____________*/
 
 .main_footer {
-	width: 100%;
+	max-width: 1920px;
 	height: auto;
 	background-color: #393939;
 	color: #dbdbdb;
